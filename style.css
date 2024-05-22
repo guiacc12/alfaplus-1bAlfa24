@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+body {
+  background-color: #15151a;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+section {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header .logotipo {
+  float: left;
+}
+
+header .suporte {
+  float: right;
+}
+
+.logotipo img {
+  width: 120px;
+}
+
+.suporte a {
+  text-decoration: none;
+  color: #2ac432;
+  padding: 13px;
+  border-radius: 30px;
+  background-color: #ffffff;
+
+}
+
+.suporte {
+  margin-top: 20px;
+}
+
+.menuitem li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.menu,
+.menuitem {
+  display: inline;
+}
+
+.header {
+  margin: 20px 0;
+}
+
+.menuitem li a {
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 20px 10px;
+
+
+}
+
+.menu {
+  margin: 0 50px;
+}
+
+.menuitem li a:hover {
+  color: #f1ef45;
+  border-bottom: 1.5px solid #f1ef45;
+  transition: 0.3s;
+
+}
+
+.hover {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.hover:hover {
+  opacity: 0.7;
+  transition: 0.3s;
+
+}
+
+header {
+  border-bottom: 1px solid #ffffff;
+  z-index: 2;
+  position: relative;
+
+}
+
+.slider {
+  background-image: url(sonic.webp);
+  height: 800px;
+  background-attachment: fixed;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+  top: -150px;
+  position: relative;
+  opacity: 0.2;
+
+
+}
+
+h1 {
+  text-align: center;
+  top: 150px;
+  position: relative;
+  color: #ffffff;
+  font-size: 35px;
+  z-index: 3;
+  font-weight: bold;
+
+}
